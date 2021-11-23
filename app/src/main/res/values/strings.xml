@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <string name="sort">Sort</string>
+    <string name="refresh">Refresh</string>
+    <string name="connect">Connect</string>
+    <string name="trailer">Trailer</string>
+    <string name="play">Play</string>
+    <string name="share">Share</string>
+    <string name="review">Reviews</string>
+    <string name="description">Description</string>
+    <string name="star">Star</string>
+    <string name="favourites">Favourites</string>
+    <string name="summary">Summary</string>
+    <string name="starred">Starred</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Yes</string>
+    <string name="cancel">No</string>
+
+    <string-array name="spinner">
+        <item>Now Playing</item>
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+        <item>Favourites</item>
+    </string-array>
+
+    <!-- Could've been shorter... -->
+    <string-array name="descriptions">
+        <item>Cats, also called domestic cats (Felis catus), are small, carnivorous (meat-eating)
+            mammals, of the family Felidae. Domestic cats are often called house cats when kept as indoor pets.</item>
+
+        <item>Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals.
+            They were originally bred from wolves. They have been bred by humans for a long time,
+            and were the first animals ever to be domesticated.</item>
+
+        <item>The lion (Panthera leo) is a large mammal of the Felidae (cat) family. Some large
+            males weigh over 250 kg (550 lb). Today, wild lions live in sub-Saharan Africa and
+            in Asia. Lions are adapted for life in grasslands and mixed areas with trees and grass.</item>
+
+        <item>The tiger (Panthera tigris) is the largest living member of the cat family, the Felidae.
+            It feeds by hunting. It lives in Asia, mainly India, Bhutan, China, Korea and Siberian
+            Russia. Tigers are solitary animals.</item>
+
+        <item>The scarlet macaw (Ara macao) is a type of parrot. It is native to humid evergreen forests of tropical South America.
+            Its range is from south-eastern Mexico to Amazonian Peru, Bolivia, Venezuela and Brazil in lowlands
+            up to 500 m (1,640 ft) (at least formerly) up to 1,000 m (3,281 ft). It has suffered from
+            local extinction through habitat destruction and capture for the parrot trade, but
+            locally it remains fairly common. It is the national bird of Honduras. </item>
+
+        <item>A domestic sheep (Ovis aries) is a domesticated mammal related to wild sheep and goats.
+            Sheep are owned and looked after by a sheep farmer. Female sheep are called ewes. Male
+            sheep are called rams. Young sheep are called lambs. They are kept for their wool and their meat.</item>
+
+        <item>Flamingos are types of birds. They are noisy birdsand they live in big groups called flocks.
+            Flamingos are wading birds. This means they live by water, such as lakes. They are in the
+            genus Phoenicopterus and family Phoenicopteridae. There are six species of flamingo. Two of
+            species are found in Africa, Europe and Asia. The other four are found in North America and South America. </item>
+
+        <item>Zebras are mammals of the family Equidae. Zebras are African horses. They are in the same
+            genus as the common horse, Equus caballus, and donkeys. Zebras are known for having many black
+            and white stripes. There are three main species of zebra, Grevy\'s Zebra, the Plains Zebra, and the Mountain Zebra. </item>
+
+        <item>Chameleons are a family of lizards. Most can change the colour of their skins for camouflage, or to signal mood to other chameleons.
+            They are a distinct clade of lizards. They have parrot-like zygodactylous feet, separately mobile and
+            stereoscopic eyes, very long tongues they can flick out, a swaying gait, their
+            prehensile tail, crests or horns on their strange-shaped heads, and many can change colour. </item>
+
+        <item>Elephants are the largest living land mammals. The largest elephant recorded was one shot
+            in Angola, 1974. It weighed 27,060 pounds (13.5 tons) and stood 13 feet 8 inches tall. Their skin color is grey.
+            In the wild, elephants have strong family relationship. Their ways of acting toward other
+            elephants are hard for people to understand. They "talk" to each other with very low sounds.
+            Most elephants sounds are so low, people cannot hear them. But elephants can hear these sounds
+            far away. Elephants have strong, leathery skin to protect themselves. </item>
+    </string-array>
+</resources>

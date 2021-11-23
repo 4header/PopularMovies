@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailsActivity">
+<LinearLayout
+    android:id="@+id/top_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="cancel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/det_image"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/det_title"
+                style="@style/right_panel"
+                android:layout_weight="2"/>
+
+            <View
+                style="@style/purple_lines"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/det_release_date"
+                style="@style/right_panel"
+                android:layout_weight="1" />
+
+            <View
+                style="@style/purple_lines"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/det_vote_average"
+                style="@style/right_panel"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/purple_lines"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/det_backdrop"
+            style="@style/det_backdrop" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Tried squeezing bg colour into style -->
+            <TextView
+                android:id="@+id/det_description"
+                style="@style/det_text"
+                android:background="#8888" />
+        </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        style="@style/button_layout">
+        <Button
+            android:id="@+id/play"
+            style="@style/buttons"
+            android:background="@color/colorPrimary"
+            android:onClick="play"/>
+
+        <Button
+            android:id="@+id/share"
+            style="@style/buttons"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="share"/>
+    </LinearLayout>
+
+    <!-- look into yt api
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+    <VideoView
+        android:id="@+id/video_player"
+        android:layout_width="300dp"
+        android:layout_height="600dp"/>
+    </LinearLayout>
+    -->
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <ImageView
+            style="@style/fav_icon"/>
+
+        <TextView
+            android:id="@+id/fav_title"
+            style="@style/fav_title"/>
+    </LinearLayout>
+
+</LinearLayout>
+    <!-- Frame root tag prevents class list from growing
+    <LinearLayout
+        style="@style/button_layout">
+        <Button
+            android:id="@+id/confirm_clear"
+            style="@style/buttons"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="confirm_clear"/>
+
+        <Button
+            android:id="@+id/cancel_clear"
+            style="@style/buttons"
+            android:background="@color/colorPrimary"
+            android:onClick="cancel_clear"/>
+    </LinearLayout>
+</FrameLayout>
+-->
